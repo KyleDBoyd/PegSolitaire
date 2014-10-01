@@ -35,9 +35,9 @@ Technical Notes
 =============
 The program is broken up into the following classes:
 
-HiQCell - This class handles the cell/peg drawing, peg colour, and peg state
-HiQGame - This class handles all of the game logic and utilizes the HiQCell class and HiQScoreboard class
-HiQScoreboard - This class draws and updates the HiQScoreboard
+- HiQCell -> This class handles the cell/peg drawing, peg colour, and peg state
+- HiQGame -> This class handles all of the game logic and utilizes the HiQCell class and HiQScoreboard class
+- HiQScoreboard -> This class draws and updates the HiQScoreboard
 
 The <code>gameLogic()</code> function in the HiQGame class is the core of the game as it handles everything when a peg is clicked.
 
