@@ -9,4 +9,13 @@ Your program should generate a graphical game board and then allow the human pla
 
 The game board should indicate the number of pegs remaining. An indication should be given when no more moves are possible.
 
+Installation
+=============
+Download the squeak environment [here] (http://www.squeak.org/Downloads). Once the environment is installed create a new Morphic Project (Projects->New Project->New MorphicProject). Once you have created a project left click anywhere on the screen and select "open" and then "file list" from the menu. This will bring up another window that you can use to import the smalltalk file in the repository. Once you find the file, right click and select "fileIn entire file" from the menu.
+
+The game code is now imported into your squeak enviroment! Now we will run the game. Open a workspace (Tools->Workspace) and type in the following command:
+
+<code>HiQGame new openInWorld</code>
+
+And hit ctrl+d to execute the command.
 
