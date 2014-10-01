@@ -41,6 +41,14 @@ HiQScoreboard - This class draws and updates the HiQScoreboard
 
 The <code>gameLogic()</code> function in the HiQGame class is the core of the game as it handles everything when a peg is clicked.
 
+Test Cases
+=============
+All four valid jumps (left, right, up, down)
+Lose the game (run out of moves)
+Several invalid jumps:
+  - jump to a position with a peg
+  - jump to a position off the board
+  - make a jump that doesn't satisfy the <code>isValidMove()</code> function
 
 
 
