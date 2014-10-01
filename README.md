@@ -50,5 +50,7 @@ Several invalid jumps:
   - jump to a position off the board
   - make a jump that doesn't satisfy the <code>isValidMove()</code> function
 
-
+Known Bugs
+=============
+- Cell colour changes on click
 
