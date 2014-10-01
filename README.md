@@ -17,5 +17,29 @@ The game code is now imported into your squeak enviroment! Now we will run the g
 
 <code>HiQGame new openInWorld</code>
 
-And hit ctrl+d to execute the command.
+Then hit ctrl+d to execute the command.
+
+If everything went according to plan, a game board will be generated on the screen.
+
+How to Play
+=============
+The goal of the game is to jump over pegs until there is 1 remaining on the board. You can find a detailed set of rules with a few example moves [here] (http://en.wikipedia.org/wiki/Peg_solitaire#Play).
+
+The peg colours on the game board correspond to the following states:
+
+Red -> Active/Clicked
+Black -> Normal Peg
+White -> Empty Peg Slot
+
+Technical Notes
+=============
+The program is broken up into the following classes:
+
+HiQCell - This class handles the cell/peg drawing, peg colour, and peg state
+HiQGame - This class handles all of the game logic and utilizes the HiQCell class and HiQScoreboard class
+HiQScoreboard - This class draws and updates the HiQScoreboard
+
+The <code>gameLogic()</code> function in the HiQGame class is the core of the game as it handles everything when a peg is clicked.
+
+
 
