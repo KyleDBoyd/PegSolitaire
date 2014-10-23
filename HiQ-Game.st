@@ -106,7 +106,8 @@ gameLogic: i at: j
 				(self isValidMove: previousCell at: currentCell at: middleCellObject) ifTrue: 
 				[
 					middleCellObject setDeadPeg.
-					previousCellObject setLivePeg..
+					previousCellObject setDeadPeg.
+                              		currentCellObject setLivePeg.
 					currentCell := nil.
 					previousCell := nil.
 					pegsRemaining := pegsRemaining - 1.
